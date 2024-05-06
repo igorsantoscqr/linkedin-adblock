@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2,
+    "name": "LinkedIn Adblocker",
+    "description": "Blocking ads.",
+    "version": "0.0.1",
+    "author": "Igor Santos",
+    "browser_action": {
+        "default_title": "LinkedIn Adblocker"
+    },
+    "permissions": [
+        "tabs",
+        "webNavigation",
+        "https://www.linkedin.com"
+    ],
+    "background": {
+        "scripts": [
+            "extension.js"
+        ]
+    }
+}
